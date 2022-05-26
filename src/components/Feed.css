@@ -1,0 +1,70 @@
+.feed{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 55%;
+    transform: translate(-50%, -50%);
+}
+.card{
+    display: flex;
+    margin: 20px 0;
+    border-radius: 20px;
+    padding: 20px 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+/* .card .profile-img{
+    width: 10%;
+}
+.profile-desc{
+    width: 50%;
+}
+.semi-circle{
+    width: 20%;
+} */
+.container{
+    position: fixed;
+    top: -200px;
+}
+.profile-img div{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+button{
+    background-color: #FF748D;
+    color: white;
+    border: none;
+    padding: 5px 30px;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card p{
+    color: #B7B7B7;
+    padding: 0 20px;
+    font-size: 15px;
+}
+.heading{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0;
+    color: #707070;
+    font-weight: 500;
+}
+.semi-circle{
+    margin: auto;
+}
+.semi-circle div{
+    width: 25px;
+    height: 50px;
+    background-color: #FF748D;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    /* border: 10px solid gray; */
+    border-bottom: 0;
+}
