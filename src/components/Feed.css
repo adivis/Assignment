@@ -1,9 +1,7 @@
 .feed{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 55%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 .card{
     display: flex;
@@ -21,9 +19,8 @@
 .semi-circle{
     width: 20%;
 } */
-.container{
-    position: fixed;
-    top: -200px;
+.feed .container{
+    width: 50%;
 }
 .profile-img div{
     height: 50px;
@@ -33,7 +30,7 @@
     border-radius: 50%;
     border: 1px solid black;
 }
-button{
+.feed button{
     background-color: #FF748D;
     color: white;
     border: none;
@@ -41,6 +38,7 @@ button{
     font-size: 15px;
     height: 40px;
     border-radius: 5px;
+    cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -67,4 +65,43 @@ button{
     border-bottom-left-radius: 60px;
     /* border: 10px solid gray; */
     border-bottom: 0;
+}
+
+@media screen and (max-width:992px){
+    .feed .container{
+        width: 70%;
+    }
+}
+@media screen and (max-width:768px){
+    .feed .container{
+        width: 70%;
+    }
+    .card p{
+        font-size: 13px;
+    }
+    .heading{
+        font-size: 18px;
+    }
+    .profile-img div {
+        height: 30px;
+        width: 30px;
+        margin: 5px;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    .feed .container{
+        width: 80%;
+    }
+}
+@media screen and (max-width:350px){
+    .feed .container{
+        width: 90%;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    .heading{
+        font-size: 15px;
+    }
 }

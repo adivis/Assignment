@@ -1,0 +1,101 @@
+.signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.left{
+    margin: 5px 50px;
+    padding-left: 50px;
+    width: 50%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.form{
+    width: 70%;
+}
+.form h1{
+    margin: 50px 0;
+    color: #706f6f;
+}
+.right{
+    width: 50%;
+    overflow: hidden;
+}
+.left button{
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px 30px;
+    font-size: 13px;
+    height: 40px;
+    width: 40%;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+img{
+    width: 80vw;
+}
+input{
+    display: block;
+    background-color: #F8F8F8;
+    border: none;
+    margin-bottom: 30px ;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    /* cursor: pointer; */
+}
+input:focus, input:active{
+    outline: none;
+    border:1px solid #FF748D;
+}
+.btn{
+    width: 40%;
+    background-color: #FF748D;
+    color: white;
+    position: relative;
+    bottom: 0;
+    left: 66%;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+@media screen and (max-width:800px) {
+   .left{
+       margin: 5px 40px;
+       padding-left: 25px;
+   }
+}
+@media screen and (max-width:600px) {
+    .right{
+        display: none;
+    }
+    .signup{
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .left{
+        width: 100%;
+        padding-left: 0;
+        margin: 5px 25px;
+    }
+    .form{
+        width: 80%;
+    }
+    .left button{
+        width: 50%;
+    }
+}
+@media screen and (max-width:400px) {
+    .left button{
+        width: 70%;
+    }
+}

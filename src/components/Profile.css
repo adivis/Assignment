@@ -1,0 +1,145 @@
+.profilepage{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profilepage .profile h6{
+    
+    margin: 25px 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #7C7C7C;
+}
+#post{
+    border-top: 2px solid #707070;
+}
+.profilepage .profile p{
+    color: #939393;
+    font-size: 13px;
+}
+.profilepage .profile .profile-desc{
+    margin-left: 30px;
+}
+.profile{
+    height: 150px;
+}
+.details .btns button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #707070;
+}
+.profilepage .container{
+    width: 50%;
+}
+.profilepage .profile .profile-img div{
+    height: 100px;
+    width: 100px;
+}
+.profile{
+    display: flex;
+}
+.details, .details .btns{
+    display: flex;
+    
+    justify-content: space-evenly;
+    /* color: #8f8d8d; */
+}
+.show-content{
+    display: block;
+}
+.hide-content{
+    display: none;
+}
+.details{
+    flex-direction: column;
+    border-top: 1px solid rgb(152, 151, 151);
+}
+.details .btns div{
+    margin-top: -1.5px;
+    
+}
+.details p{
+    margin-top: 10px;
+}
+#follow-content .container{
+    width: 100%;
+}
+#post-content .container{
+    width: 100%;
+}
+#following-content .container{
+    width: 100%;
+}
+#post-content .container button{
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    .profilepage .profile .profile-img div {
+        height: 70px;
+        width: 70px;
+    }
+    .details .btns button{
+        font-size: 13px;
+    }
+    .profilepage .profile p{
+        font-size: 11px;
+    }
+    .profilepage .profile h6 {
+        margin: 20px 8px;
+    
+        font-size: 18px;
+
+    }
+}
+@media screen and (max-width:600px) {
+    .profilepage .profile .profile-img div {
+        height: 50px;
+        width: 50px;
+    }
+    .profilepage .profile .profile-desc{
+        margin-left: 10px;
+    }
+    .profilepage .profile h6 {
+        margin: 10px 8px;
+    
+        font-size: 18px;
+
+    }
+    .profile{
+        height: 125px;
+    }
+    .profilepage .container {
+        width: 70%;
+    }
+}
+@media screen and (max-width:400px) {
+    .profilepage .container {
+        width: 80%;
+    }
+    .details .btns button{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:300px) {
+    .profilepage .profile h6 {
+        
+        font-size: 15px;
+
+    }
+    .profilepage .profile p{
+        font-size: 9px;
+    }
+    .profilepage .profile .profile-desc{
+        margin-left: 5px;
+    }
+    .profilepage .profile .profile-img div {
+        height: 40px;
+        width: 40px;
+    }
+}
